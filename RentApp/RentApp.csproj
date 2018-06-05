@@ -265,8 +265,13 @@
     <Compile Include="Controllers\AppUserController.cs" />
     <Compile Include="Controllers\BranchesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PricelistItemsController.cs" />
+    <Compile Include="Controllers\PricelistsController.cs" />
+    <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\UserFeedbacksController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\VehiclesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -281,6 +286,10 @@
     <Compile Include="Migrations\201806050951141_UpdateTable.cs" />
     <Compile Include="Migrations\201806050951141_UpdateTable.Designer.cs">
       <DependentUpon>201806050951141_UpdateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806051050154_AddedControllers.cs" />
+    <Compile Include="Migrations\201806051050154_AddedControllers.Designer.cs">
+      <DependentUpon>201806051050154_AddedControllers.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -406,6 +415,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806050951141_UpdateTable.resx">
       <DependentUpon>201806050951141_UpdateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806051050154_AddedControllers.resx">
+      <DependentUpon>201806051050154_AddedControllers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
