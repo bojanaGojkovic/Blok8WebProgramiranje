@@ -60,7 +60,7 @@ namespace RentApp.Migrations
 
                   u => u.FullName,
 
-                  new AppUser() { FullName = "Admin Adminovic" }
+                  new AppUser() { FullName = "Admin Adminovic", DateOfBirth = DateTime.Now }
 
             );
 
@@ -68,7 +68,7 @@ namespace RentApp.Migrations
 
                 p => p.FullName,
 
-                new AppUser() { FullName = "AppUser AppUserovic" }
+                new AppUser() { FullName = "AppUser AppUserovic", DateOfBirth = DateTime.Now }
 
             );
 

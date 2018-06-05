@@ -262,6 +262,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AppUserController.cs" />
+    <Compile Include="Controllers\BranchesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -275,6 +277,10 @@
     <Compile Include="Migrations\201806040939166_AddedTables.cs" />
     <Compile Include="Migrations\201806040939166_AddedTables.Designer.cs">
       <DependentUpon>201806040939166_AddedTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806050951141_UpdateTable.cs" />
+    <Compile Include="Migrations\201806050951141_UpdateTable.Designer.cs">
+      <DependentUpon>201806050951141_UpdateTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -376,6 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\AppUser\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -396,6 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806040939166_AddedTables.resx">
       <DependentUpon>201806040939166_AddedTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806050951141_UpdateTable.resx">
+      <DependentUpon>201806050951141_UpdateTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
